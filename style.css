@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.frame {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: radial-gradient(#b4afaf, #3d3b3b);
+  position: relative;
+}
+
+.frame .board {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+}
+
+.frame .board .corner {
+  width: 120px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 9px;
+  background: rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: inset 0px 0px 15px;
+          box-shadow: inset 0px 0px 15px;
+}
+
+.frame .board .corner .hoverSquare {
+  width: 110px;
+  height: 110px;
+  border: 2px solid #3c5ae2;
+  border-radius: 9px;
+}
+
+.frame .board #topLeft {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.frame .board #topRight {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.frame .board #bottomRight {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.frame .board #bottomLeft {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+.frame .board .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 326px;
+  height: 326px;
+<<<<<<< HEAD:style.css
+  background-image: url("head.svg");
+=======
+  background-image: url("./img/head.svg");
+>>>>>>> 366223d66d8f368459d97aa01c35d5ed00042141:styles/style.css
+  background-position-x: 7.81px;
+  background-position-y: 15.81px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.frame .board .circle .square {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 192px;
+  height: 192px;
+  margin-top: 1px;
+  margin-left: 1px;
+<<<<<<< HEAD:style.css
+  -webkit-mask-image: url("back_mask.svg");
+          mask-image: url("back_mask.svg");
+=======
+  -webkit-mask-image: url("./img/back_mask.svg");
+          mask-image: url("./img/back_mask.svg");
+>>>>>>> 366223d66d8f368459d97aa01c35d5ed00042141:styles/style.css
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: auto;
+          mask-size: auto;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.frame .board .circle .square .mask {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.frame .board .circle .square .mask img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.frame #copyright {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+}
+
+.frame #copyright span {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
